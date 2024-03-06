@@ -50,11 +50,7 @@ public class metodosTelaLoginPage {
 	     assertEquals(texto, mensagem);	    		 
 	}
 	
-	public void tirarPrint(String nome) throws IOException {
-		TakesScreenshot print = ((TakesScreenshot) web);
-		File SrcFile = print.getScreenshotAs(OutputType.FILE);
-		File DestFile = new File("./src/evidencias" + nome + ".png");
-		FileUtils.copyFile(SrcFile, DestFile);
+	
 		
 		
 		//hodhdoahdoashdoiashdoqsahdnonoonoi
