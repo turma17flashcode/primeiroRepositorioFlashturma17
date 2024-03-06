@@ -55,6 +55,9 @@ public class metodosTelaLoginPage {
 		File SrcFile = print.getScreenshotAs(OutputType.FILE);
 		File DestFile = new File("./src/evidencias" + nome + ".png");
 		FileUtils.copyFile(SrcFile, DestFile);
+		
+		
+		hodhdoahdoashdoiashdoqsahd
 	}
 
 }
