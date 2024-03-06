@@ -40,7 +40,7 @@ public void preencher_login_e_senha_validos() {
 public void é_logado_com_sucesso()throws InterruptedException, IOException {
 	met.clicar(el.getBtnLogin());
 	met.pausar(4000);
-	met.validarTexto(el.getTextLogin(), "Teste Turma Automacaoflashcodesdaddwqdwqdwqd flashcode");
+	met.validarTexto(el.getTextLogin(), "Teste Turma Automacaoflashcode flashcode");
 	met.tirarPrint("Cenario de Login com sucesso");
 	met.fecharNavegador(); 
 }
