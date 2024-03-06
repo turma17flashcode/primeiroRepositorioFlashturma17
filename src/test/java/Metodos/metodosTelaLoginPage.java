@@ -58,7 +58,7 @@ public void tirarPrint(String nome) throws IOException {
 		FileUtils.copyFile(SrcFile, DestFile);
 		
 		
-		//hodhdoahdoashdoiashdoqsahdnonoonoi
+		igigiugiuguigiu
 	}
 
 }
